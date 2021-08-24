@@ -1,0 +1,6 @@
+Resources:
+  Type: AWS::S3::Bucket
+  Properties: 
+    BucketName: mys3-demo-8877-cicd
+    VersioningConfiguration:
+        Status: Enabled
