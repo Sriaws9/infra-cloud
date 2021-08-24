@@ -4,3 +4,8 @@ Resources:
     BucketName: mys3-demo-8877-cicd-9
     VersioningConfiguration:
         Status: Disabled
+    Tags: 
+      - Key: "keyname1"
+        Value: "v2"
+      - Key: "keyname2"
+        Value: "v2"
