@@ -1,11 +1,11 @@
 Resources:
   Type: AWS::S3::Bucket
   Properties: 
-    BucketName: mys3-demo-8877-cicd
+    BucketName: mys3-demo-8877-cicd-9
     VersioningConfiguration:
         Status: Disabled
     Tags: 
       - Key: "keyname1"
-        Value: "value1"
+        Value: "v2"
       - Key: "keyname2"
-        Value: "value2"
+        Value: "v2"
